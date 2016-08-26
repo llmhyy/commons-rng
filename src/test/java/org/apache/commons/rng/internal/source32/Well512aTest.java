@@ -66,4 +66,9 @@ public class Well512aTest {
             Assert.assertEquals(refInt[i], rng.nextInt());
         }
     }
+    
+    public static void main(String[] args){
+    	Well512aTest test = new Well512aTest();
+    	test.testReferenceCode();
+    }
 }
